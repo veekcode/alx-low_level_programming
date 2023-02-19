@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 #include <string.h>
 
@@ -8,5 +7,5 @@ int main(void)
 
 	puts(str);
 	
-	Return (0);
+	return 0;
 }

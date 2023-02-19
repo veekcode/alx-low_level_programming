@@ -7,5 +7,10 @@
  *     */
 int main(void)
 {
-	    return (0);
+	int a = 0;
+	int b = 5;
+
+	while (a < b)
+		printf("%d\n", a++);
+	return (0);
 }
