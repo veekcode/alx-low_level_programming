@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - entry
+ *
+ * return 0
+ */
+
 int main(void)
 {
 	int a = 0;
@@ -12,5 +13,6 @@ int main(void)
 
 	while (a < b)
 		printf("%d\n", a++);
+
 	return (0);
 }
