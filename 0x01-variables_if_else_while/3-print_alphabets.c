@@ -3,24 +3,17 @@
 /**
  *main - entry point
  *
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  *
  */
 int main(void)
 {
-char lowercase = 'a';
-char uppercase = 'A';
-while (lowercase <= 'z')
-{
-putchar (lowercase);
-lowercase++;
-}
-while (uppercase <= 'z')
-{
-putchar (uppercase);
-uppercase++;
-}
+    char c;
+for (c = 'a'; c <= 'z'; c++)
+putchar (c);
 
+for (c = 'A'; c <= 'z'; c++)
+putchar (c);
 putchar('\n');
 return (0);
 
