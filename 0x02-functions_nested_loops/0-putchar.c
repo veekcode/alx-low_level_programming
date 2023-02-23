@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- *main - This will print the string '_putchar'
+ *main - check code
  *
  *Return: Always 0 (Success)
  *
  */
 int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('e');
-putchar('r');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('e');
+_putchar('r');
 
-putchar('\n');
+_putchar('\n');
 return (0);
 }
