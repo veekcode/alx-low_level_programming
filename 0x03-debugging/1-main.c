@@ -18,7 +18,8 @@ printf("Infinite loop incoming :(\n");
  *}
  */
 printf("Infinite loop avoided! \\o/\n");
-/*This corrects the infinite loop error
+/*
+*This corrects the infinite loop error
 */
 return (0);
 }
