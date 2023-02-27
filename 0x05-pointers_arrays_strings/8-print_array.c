@@ -1,5 +1,5 @@
 #include "main.h"
-incl
+
 
 /**
  * print_array - print reverse characters.
