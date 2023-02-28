@@ -6,13 +6,12 @@
  */
 void print_numbers(void)
 {
-int num;
-for (num >= 48; num <= 58; num++)
+int a;
+for (a = 48; a < 58; a++)
 {
-_putchar(num);
+_putchar(a);
 }
 {
 _putchar('\n');
 }
-return (0);
 }
