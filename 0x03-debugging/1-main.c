@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - causes an infinite loop
  * Return: 0
@@ -8,7 +7,6 @@ int main(void)
 {
 int i;
 printf("Infinite loop incoming :(\n");
-
 /**
  * 1-main - checks for infinite loop error
  * i = 0;
