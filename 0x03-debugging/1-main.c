@@ -7,8 +7,9 @@ int main(void)
 {
 int i;
 printf("Infinite loop incoming :(\n");
+
 /**
- * 1-main - checks for infinite loop error
+ * 1-main - checks for infinite loop
  * i = 0;
  *while (i < 10)
  *{
@@ -17,7 +18,7 @@ printf("Infinite loop incoming :(\n");
  */
 printf("Infinite loop avoided! \\o/\n");
 /*
-*This corrects the infinite loop error
+*This corrects the infinite loop
 */
 return (0);
 }
