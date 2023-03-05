@@ -1,18 +1,18 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- *print_alphabets - check code
+ * print_alphabet - print lowercase of alphabets
  *
- *Return: Always 0 (Success)
- *
+ * Return: Always 0.
  */
 void print_alphabet(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
-{
-_putchar(c);
-}
-_putchar('\n');
-return (0);
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		_putchar(alpha);
+	}
+
+	_putchar('\n');
 }
