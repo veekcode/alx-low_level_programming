@@ -1,15 +1,20 @@
 #include "main.h"
 /**
- * _isalpha - checks for alphabetic character
+ * _isalpha - Entry point
  *
- * Return: 1 if c is a letter, lowercase or uppercase and 0 if otherwise
- *@c: contains vlue to be compared
+ *@c: c is the variable for the program.
+ * Return: Always 0 (Success)
  */
 int _isalpha(int c)
 {
-	if (c >= 'A' && c <= 'z')
-		return (1);
 
+	if (('z' > c && c > 'a') || ('Z' > c && c > 'A'))
+	{
+		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
+
