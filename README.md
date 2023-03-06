@@ -1,1 +1,1 @@
-the main C tasking is here
+more pointers things
